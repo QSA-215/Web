@@ -3,7 +3,7 @@ body
     color: #F7F7F7;
 }
 
-.top
+.header
 {
     background: #F5F5F5;
     background-size: cover;
@@ -12,7 +12,7 @@ body
     align-items: center;
 }
 
-.link
+.nav__link
 {
     color: #2E2E2E;
     font: 12px/1.6 "Oxygen";
@@ -22,7 +22,7 @@ body
     letter-spacing: 0.6px;
 }
 
-.esc-nav
+.header__esc-nav
 {
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ body
     margin-bottom: 99px;
 }
 
-.picture
+.post__picture
 {
     height: 534px;
     background: #ffffff url(../images/The_road_ahead_background.png);
@@ -41,7 +41,7 @@ body
     border-radius: 3px;
 }
 
-.bottom
+.footer
 {
     background: #232F3899 url(../images/bottom_background.png);
     background-size: cover;
@@ -52,26 +52,26 @@ body
     padding: 0px 250px;
 }
 
-.text
+.post__text
 {
     color: #101315;
     font: 24px/1.46 "Oxygen";
     margin: 140px 240px;
 }
 
-.escape
+.header__escape
 {
     color: #2E2E2E;
     font: 26px/1 "Lora";
 }
 
-.bottom_escape
+.footer__escape
 {
     color: #ffffff;
     font: 26px/1 "Lora";
 }
 
-.title
+.header__title
 {
     color: #2E2E2E;
     font: 50px/1 "Lora";
@@ -79,7 +79,7 @@ body
     margin: 0px;
 }
 
-.title2
+.header__subtitle
 {
     color: #2E2E2EA1;
     font: 17px/1.17 "Oxygen";
@@ -87,7 +87,7 @@ body
     margin-bottom: 113px;
 }
 
-.link_bottom
+.footer__link
 {
     color: #FFFFFF99;
     font: 12px/1.6 "Oxygen";

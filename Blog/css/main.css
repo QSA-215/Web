@@ -3,7 +3,7 @@ body
     background: #F7F7F7;
 }
 
-.top
+.header
 {
     background: #00000080 url(../images/main_background.png);
     background-size: cover;
@@ -14,7 +14,7 @@ body
     align-items: center;
 }
 
-.bottom
+.footer
 {
     background: #232F3899 url(../images/bottom_background.png);
     background-size: cover;
@@ -31,7 +31,7 @@ body
     font: 26px/1 "Lora";
 }
 
-.link
+.header-nav__link
 {
     color: #ffffff;
     font: 12px/1.6 "Oxygen";
@@ -41,7 +41,7 @@ body
     letter-spacing: 0.6px;
 }
 
-.esc-nav
+.header__esc-nav
 {
     display: flex;
     justify-content: space-between;
@@ -52,14 +52,14 @@ body
     margin-bottom: 120px;
 }
 
-.title
+.header__title
 {
     font: 50px/1 "Lora";
     margin: 0px;
     letter-spacing: 2px;
 }
 
-.subtitle
+.header__subtitle
 {
     color: #ffffffa1;
     font: 17px/1 "Oxygen";
@@ -67,7 +67,7 @@ body
     margin-bottom: 31px;
 }
 
-.button
+.header__button
 {
     display: inline-block;
     max-height: 44px;
@@ -90,7 +90,7 @@ body
     background: #ffffff;
 }
 
-.link1
+.nav__link
 {
     color: #768088;
     font: 14px/1.4 "Lora";
@@ -99,7 +99,7 @@ body
 }
 
 
-.bottom__link
+.footer-nav__link
 {
     color: #FFFFFF99;
     font: 12px/1.6 "Oxygen";
@@ -109,7 +109,7 @@ body
     margin: 0px 10px;
 }
 
-.h2
+.body__title
 {
     display: inline-block;
     width: 100%;
@@ -120,14 +120,14 @@ body
     border-bottom: solid 1px #DEDEDE;
 }
 
-.post__name
+.featured-post__name
 {
     font: 27px/1 "Lora";
     color: #ffffff;
     margin: 0px;
 }
 
-.post__text
+.featured-post__text
 {
     font: 14px/1.78 "Oxygen";
     color: #FFFFFFB2;
@@ -136,7 +136,7 @@ body
 
 }
 
-.post__main-info
+.featured-post__main-info
 {
     display: flex; 
     justify-content: space-between;
@@ -145,19 +145,20 @@ body
     margin-top: 17px;
 }
 
-.post__info
+.featured-post__info
 {
     display: flex; 
     justify-content: space-between;
     align-items: center;
 }
-.name-date
+
+.featured-post__name-date
 {
     font: 12px/1 "Oxygen";
     color: #FFFFFFB2;
 }
 
-.post2__name
+.most-recent-post__name
 {
     font: 16px/1.3 "Lora";
     color: #101315;
@@ -166,7 +167,7 @@ body
     margin-top: 14px;
 }
 
-.post2__text
+.most-recent-post__text
 {
     font: 13px/1.46 "Oxygen";
     color: #7A7A7A;
@@ -175,7 +176,7 @@ body
     margin-bottom: 32px;
 }
 
-.post2__main-info
+.most-recent-post__main-info
 {
     display: flex; 
     justify-content: space-between;
@@ -186,20 +187,20 @@ body
     margin: 0px;
 }
 
-.post2__info
+.most-recent-post__info
 {
     display: flex; 
     justify-content: space-between;
     align-items: center;
 }
-.name-date2
+
+.most-recent-post__name-date
 {
     font: 12px/1 "Oxygen";
     color: #999999;
 }
 
-
-.post2
+.most-recent-posts__post
 {
     display: flex;
     flex-direction: column;
@@ -210,7 +211,7 @@ body
     background: #FFFFFF;
 }
 
-.mat_vogels_face
+.mat-vogels-face
 {
     background: #ffffff url(../images/Mat_Vogels.png);
     height: 26px;
@@ -219,7 +220,7 @@ body
     margin-right: 10px;
 }
 
-.william_wong_face
+.william-wong-face
 {
     background: #ffffff url(../images/William_Wong.png);
     height: 26px;
@@ -228,7 +229,7 @@ body
     margin-right: 10px;
 }
 
-.post
+.featured-posts__post
 {
     display: flex;
     flex-direction: column;
@@ -241,18 +242,17 @@ body
     padding: 20px;
 }
 
-.the_road_ahead
+.the-road-ahead-post
 {
     background: #ffffff url(../images/the_road_ahead.png);
 }
 
-.from_top_down
+.from-top-down
 {
     background: #ffffff url(../images/from_top_down.png);
-
 }
 
-.still_standing_tall
+.still-standing-tall
 {
     background: #D6D6D6 url(../images/still_standing_tall.png);
     width: 296px;
@@ -260,7 +260,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.sunny_side_up
+.sunny-side-up
 {
     background: #D6D6D6 url(../images/sunny_side_up.png);
     width: 296px;
@@ -268,7 +268,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.water_falls
+.water-falls
 {
     background: #D6D6D6 url(../images/water_falls.png);
     width: 296px;
@@ -276,7 +276,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.through_the_mist
+.through-the-mist
 {
     background: #D6D6D6 url(../images/through_the_mist.png);
     width: 296px;
@@ -284,7 +284,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.awaken_early
+.awaken-early
 {
     background: #D6D6D6 url(../images/awaken_early.png);
     width: 296px;
@@ -292,7 +292,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.try_it_always
+.try-it-always
 {
     background: #D6D6D6 url(../images/try_it_always.png);
     width: 296px;
