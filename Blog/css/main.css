@@ -1,3 +1,8 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
 body
 {
     background: #F7F7F7;
@@ -8,7 +13,7 @@ body
     background: #00000080 url(../images/main_background.png);
     background-size: cover;
     height: 500px;
-    color: #ffffff;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,24 +21,52 @@ body
 
 .footer
 {
-    background: #232F3899 url(../images/bottom_background.png);
+    background: #232F3899 url(../images/footer_background.png);
     background-size: cover;
-    height: 89px;
+    height: 378px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 0px 250px;
+    justify-content: flex-end;
 }
 
-.escape
+.footer-bottom
 {
-    color: #ffffff;
+    background: #232F3899;
+    border-top: solid 1px #FFFFFF1F;
+    height: 89px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__title
+{
+    font: 25px/1.2 "Oxygen";
+    color: #EFEFEF;
+    border-bottom: solid 1px #DEDEDE;
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+    width: 188px;
+    text-align: center;
+}
+
+.header__escape
+{
+    color: #FFFFFF;
+    font: 26px/1 "Lora";
+}
+
+.footer__escape
+{
+    color: #FFFFFF;
     font: 26px/1 "Lora";
 }
 
 .header-nav__link
 {
-    color: #ffffff;
+    color: #FFFFFF;
     font: 12px/1.6 "Oxygen";
     text-transform: uppercase;
     text-decoration: none;
@@ -55,13 +88,12 @@ body
 .header__title
 {
     font: 50px/1 "Lora";
-    margin: 0px;
     letter-spacing: 2px;
 }
 
 .header__subtitle
 {
-    color: #ffffffa1;
+    color: #FFFFFFa1;
     font: 17px/1 "Oxygen";
     margin-top: 20px;
     margin-bottom: 31px;
@@ -69,15 +101,16 @@ body
 
 .header__button
 {
-    display: inline-block;
     max-height: 44px;
     height: 100%;
     max-width: 167px;
     width: 100%;
     text-align: center;
     background: #DD783F;
+    border: none;
     border-radius: 3px;
     font: 13px/1.5 "Oxygen";
+    color: #FFFFFF;
 }
 
 .nav
@@ -88,6 +121,7 @@ body
     justify-content: center;
     align-items: center;
     background: #ffffff;
+    margin-bottom: 60px;
 }
 
 .nav__link
@@ -99,7 +133,7 @@ body
 }
 
 
-.footer-nav__link
+.footer-bottom-nav__link
 {
     color: #FFFFFF99;
     font: 12px/1.6 "Oxygen";
@@ -109,15 +143,15 @@ body
     margin: 0px 10px;
 }
 
-.body__title
+.title
 {
-    display: inline-block;
-    width: 100%;
+    width: 188px;
     text-align: center;
     font: 20px/1.35 "Oxygen";
     letter-spacing: 2px;
     padding-bottom: 16px;
     border-bottom: solid 1px #DEDEDE;
+    margin-bottom: 23px;
 }
 
 .featured-post__name
@@ -164,16 +198,13 @@ body
     color: #101315;
     margin: 0px;
     margin-left: 13px;
-    margin-top: 14px;
 }
 
 .most-recent-post__text
 {
     font: 13px/1.46 "Oxygen";
     color: #7A7A7A;
-    margin: 0px;
-    margin-left: 13px;
-    margin-bottom: 32px;
+    margin: 0px 13px;
 }
 
 .most-recent-post__main-info
@@ -209,11 +240,12 @@ body
     height: 291px;
     width: 296px;
     background: #FFFFFF;
+    margin: 0px 12px 25px 12px;
 }
 
 .mat-vogels-face
 {
-    background: #ffffff url(../images/Mat_Vogels.png);
+    background: #FFFFFF url(../images/Mat_Vogels.png);
     height: 26px;
     width: 26px;
     border-radius: 50%;
@@ -222,7 +254,7 @@ body
 
 .william-wong-face
 {
-    background: #ffffff url(../images/William_Wong.png);
+    background: #FFFFFF url(../images/William_Wong.png);
     height: 26px;
     width: 26px;
     border-radius: 50%;
@@ -240,19 +272,20 @@ body
     width: 460px;
     box-sizing: border-box;
     padding: 20px;
+    margin: 0px 10px;
 }
 
-.the-road-ahead-post
+.featured-posts__post_the-road-ahead
 {
-    background: #ffffff url(../images/the_road_ahead.png);
+    background: #FFFFFF url(../images/the_road_ahead.png);
 }
 
-.from-top-down
+.featured-posts__post_from-top-down
 {
-    background: #ffffff url(../images/from_top_down.png);
+    background: #FFFFFF url(../images/from_top_down.png);
 }
 
-.still-standing-tall
+.most-recent-posts__post_still-standing-tall
 {
     background: #D6D6D6 url(../images/still_standing_tall.png);
     width: 296px;
@@ -260,7 +293,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.sunny-side-up
+.most-recent-posts__post_sunny-side-up
 {
     background: #D6D6D6 url(../images/sunny_side_up.png);
     width: 296px;
@@ -268,7 +301,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.water-falls
+.most-recent-posts__post_water-falls
 {
     background: #D6D6D6 url(../images/water_falls.png);
     width: 296px;
@@ -276,7 +309,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.through-the-mist
+.most-recent-posts__post_through-the-mist
 {
     background: #D6D6D6 url(../images/through_the_mist.png);
     width: 296px;
@@ -284,7 +317,7 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.awaken-early
+.most-recent-posts__post_awaken-early
 {
     background: #D6D6D6 url(../images/awaken_early.png);
     width: 296px;
@@ -292,10 +325,70 @@ body
     border-bottom: solid 1px #E5E5E5;
 }
 
-.try-it-always
+.most-recent-posts__post_try-it-always
 {
     background: #D6D6D6 url(../images/try_it_always.png);
     width: 296px;
     height: 150px;
     border-bottom: solid 1px #E5E5E5;
+}
+
+.featured-posts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 67px;
+}
+
+.featured-posts__table
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.most-recent-posts
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 83px;
+}
+
+.most-recent-posts__table
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 140px;
+}
+
+.footer-form__input
+{
+    box-sizing: border-box;
+    padding-left: 30px;
+    width: 375px;
+    height: 50px;
+    border-radius: 0px;
+    margin: 0px;
+    font: 12px/1 "Roboto";
+    border: none;
+}
+
+.footer-form__button
+{
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    color: #FFFFFF;
+    background: #CFCFCF50;
+    font: 12px/1 "Roboto";
+    border: none;
+}
+
+.footer__form
+{
+    margin-bottom: 90px;
 }
