@@ -90,7 +90,7 @@ func featuredPosts() []featuredPostData {
 		},
 		{
 			Title:			"From Top Down",
-			Subtitle:		"Once a year.",
+			Subtitle:		"Once a year, go someplace you've never been before.",
 			ImgModifier:	"featured-posts__post_from-top-down",
 	    	Author:			"Mat Vogels",
 	    	AuthorImg:		"static/images/William_Wong.png",
